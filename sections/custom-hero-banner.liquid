@@ -1,0 +1,175 @@
+{% schema %}
+{
+  "name": "Custom Hero Banner",
+  "tag": "section",
+  "class": "custom-hero-banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your Main Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Your supporting text goes here"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "right_image",
+      "label": "Right Side Image"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FDF6EB"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Hero Banner"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.custom-hero-banner {
+  background-color: {{ section.settings.background_color }};
+  padding-block: 20px;
+}
+
+.custom-hero-banner * {
+    margin: 0;
+}
+
+.custom-hero-banner__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.custom-hero-banner__content {
+  width: 50%;
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.custom-hero-banner__heading {
+  font-size: 80px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.custom-hero-banner__subheading {
+  font-size: 45px;
+  margin-bottom: 20px;
+  line-height: 42px;
+}
+
+.custom-hero-banner__button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #FB93CF;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 45px;
+  width: max-content;
+  margin: auto;
+}
+
+.custom-hero-banner__image {
+    width: 50%;
+    text-align: right;
+}
+
+.custom-hero-banner__image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .custom-hero-banner__button {
+        font-size: 16px;
+    }
+  .custom-hero-banner__wrapper {
+    justify-content: center;
+  }
+
+  .custom-hero-banner__image {
+    display: none;
+  }
+
+  .custom-hero-banner__content {
+    text-align: center;
+    width: 100%;
+    gap: 0;
+  }
+
+  .custom-hero-banner__heading {
+    font-size: 32px;
+  }
+  .custom-hero-banner__subheading {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+</style>
+
+<div class="custom-hero-banner">
+  <div class="custom-hero-banner__wrapper page-width">
+    
+    <div class="custom-hero-banner__content">
+      {% if section.settings.heading != blank %}
+        <h2 class="custom-hero-banner__heading">
+          {{ section.settings.heading }}
+        </h2>
+      {% endif %}
+
+      {% if section.settings.subheading != blank %}
+        <p class="custom-hero-banner__subheading">
+          {{ section.settings.subheading }}
+        </p>
+      {% endif %}
+
+      {% if section.settings.button_text != blank %}
+        <a
+          href="{{ section.settings.button_link }}"
+          class="custom-hero-banner__button"
+        >
+          {{ section.settings.button_text }}
+        </a>
+      {% endif %}
+    </div>
+
+    {% if section.settings.right_image != blank %}
+      <div class="custom-hero-banner__image">
+        <img
+          src="{{ section.settings.right_image | image_url: width: 800 }}"
+          alt="{{ section.settings.heading | escape }}"
+          loading="lazy"
+        >
+      </div>
+    {% endif %}
+
+  </div>
+</div>
