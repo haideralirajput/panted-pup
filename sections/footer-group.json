@@ -28,23 +28,23 @@
             "menu": "main-menu"
           }
         },
-        "text_q3PPTi": {
-          "type": "text",
+        "newsletter_block_HFeQGG": {
+          "type": "newsletter_block",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+            "newsletter_discount": "<p>Text <strong>LOVEDOGS </strong>to 41931 to never miss a drop!</p>",
+            "newsletter_text": "<p>By submitting this form, you consent to receive marketing text messages from The Foggy Dog, LLC at the number provided, including messages sent by autodialer. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP.<br/><a href=\"https://mzzteststore.myshopify.com/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">Privacy Policy</a>&<a href=\"https://mzzteststore.myshopify.com/policies/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">Terms</a>.</p>"
           }
         }
       },
       "block_order": [
         "link_list_36jnnF",
         "link_list_cfztCK",
-        "text_q3PPTi"
+        "newsletter_block_HFeQGG"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-4a751cf5-ad54-4f54-8943-5beac2d13a12",
         "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "join the pack to get all the best treats",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,

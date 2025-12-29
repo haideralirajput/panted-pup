@@ -61,11 +61,12 @@
 
 <style>
 .custom-image-slider {
-  padding-block: 60px;
+  padding-bottom: 30px;
 }
 
 .custom-image-slider__inner {
   text-align: center;
+  padding-inline: .5rem;
 }
 
 .custom-image-slider__heading {
@@ -148,18 +149,18 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 28px;
+  font-size: 80px;
   cursor: pointer;
   user-select: none;
   z-index: 2;
 }
 
 .custom-image-slider__prev {
-  left: -30px;
+  left: 10px;
 }
 
 .custom-image-slider__next {
-  right: -30px;
+  right: 10px;
 }
 
 /* Mobile */
@@ -179,7 +180,7 @@
 </style>
 
 <div class="custom-image-slider">
-  <div class="custom-image-slider__inner page-width">
+  <div class="custom-image-slider__inner">
 
     <h2 class="custom-image-slider__heading">
       {{ section.settings.heading }}
