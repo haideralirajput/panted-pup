@@ -1,0 +1,166 @@
+<section class="pup-products-section" id="pup-products-{{ section.id }}">
+  <div class="pup-products-container">
+    <div class="pup-products-content">
+
+      {% if section.settings.label != blank %}
+        <span class="pup-products-label">
+          {{ section.settings.label }}
+        </span>
+      {% endif %}
+
+      {% if section.settings.quote != blank %}
+        <blockquote class="pup-products-quote">
+          {{ section.settings.quote }}
+        </blockquote>
+      {% endif %}
+
+      <div class="pup-products-divider"></div>
+
+      {% if section.settings.text != blank %}
+        <div class="pup-products-text">
+          {{ section.settings.text }}
+        </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .pup-products-section {
+    width: 100%;
+    padding: 80px 20px;
+    background-color: {{ section.settings.background_color }};
+  }
+
+  .pup-products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .pup-products-content {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .pup-products-label {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: {{ section.settings.label_color }};
+  }
+
+  .pup-products-quote {
+    font-size: 28px;
+    font-style: italic;
+    line-height: 1.4;
+    margin: 0 auto 24px;
+    color: {{ section.settings.quote_color }};
+  }
+
+  .pup-products-divider {
+    width: {{ section.settings.divider_width }}%;
+    height: 2px;
+    background-color: {{ section.settings.divider_color }};
+    margin: 0 auto 24px;
+    display: block !important;
+  }
+
+  .pup-products-text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: {{ section.settings.text_color }};
+  }
+
+  .pup-products-text p {
+    margin-bottom: 1em;
+  }
+
+  @media (max-width: 768px) {
+    .pup-products-section {
+      padding: 60px 16px;
+    }
+
+    .pup-products-quote {
+      font-size: 22px;
+    }
+
+    .pup-products-content {
+      max-width: 100%;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Pup Products Text Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "Our Pup Products"
+    },
+    {
+      "type": "text",
+      "id": "quote",
+      "label": "Quote (Italic)",
+      "default": "Inspired by care, crafted with love"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Paragraph Text",
+      "default": "<p>Our pup products are thoughtfully designed to bring comfort, quality, and joy to your furry companions.</p>"
+    },
+    {
+      "type": "range",
+      "id": "divider_width",
+      "label": "Divider Width (%)",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "default": 15
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "Label Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "quote_color",
+      "label": "Quote Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#555555"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pup Products – Center Text"
+    }
+  ]
+}
+{% endschema %}

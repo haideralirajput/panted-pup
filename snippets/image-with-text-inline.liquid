@@ -1,0 +1,100 @@
+{% comment %}
+  Usage:
+  {% render 'image-with-text-inline',
+    image: image,
+    heading: 'Every order feeds a shelter dog',
+    text: '<p>We donate much-needed food to rescue shelters. <a href="/pages/giving-back">Learn More</a></p>',
+    background: '#000000',
+    text_color: '#ffffff'
+  %}
+{% endcomment %}
+
+<style>
+.image-with-text-inline {
+  background-color: {{ background | default: '#000000' }};
+  color: {{ text_color | default: '#ffffff' }};
+}
+
+.image-with-text-inline__inner {
+  padding: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2.1rem;
+}
+
+.image-with-text-inline__image {
+  max-width: 8rem;
+  height: auto;
+  align-self: center;
+}
+
+.image-with-text-inline__content * {
+    margin: 0;
+}
+
+.image-with-text-inline__content {
+  align-self: center;
+}
+
+.image-with-text-inline__heading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 4px;
+}
+
+.image-with-text-inline__text,
+.image-with-text-inline__text a {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.image-with-text-inline__text a {
+  font-weight: 390;
+  display: block;
+  margin-top: 5px;
+  color: {{ text_color | default: '#ffffff' }};
+}
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+  .image-with-text-inline__inner {
+    padding: 1.6rem 1.5rem;
+  }
+
+  .image-with-text-inline__heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+</style>
+
+<div class="image-with-text-inline">
+  <div class="image-with-text-inline__inner">
+
+    {% if image != blank %}
+      <img
+        class="image-with-text-inline__image"
+        src="{{ image | image_url: width: 200 }}"
+        alt=""
+        loading="lazy"
+      >
+    {% endif %}
+
+    <div class="image-with-text-inline__content">
+      {% if heading != blank %}
+        <div class="image-with-text-inline__heading">
+         <h2>{{ heading }}</h2>
+        </div>
+      {% endif %}
+
+      {% if text != blank %}
+        <div class="image-with-text-inline__text">
+          {{ text }}
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+</div>

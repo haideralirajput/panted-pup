@@ -18,18 +18,22 @@
         "button_text": "SHOP VALENTINE'S DAY",
         "button_link": "#",
         "right_image": "shopify://shop_images/Gemini_Generated_Image_nxhj4unxhj4unxhj-removebg-preview.png",
-        "background_color": "#fdf6eb"
+        "background_color": "#54723d"
       }
     },
-    "custom_image_text_split_RRhTXM": {
-      "type": "custom-image-text-split",
-      "name": "Custom Image Text Split",
+    "pup_products_text_LfACnd": {
+      "type": "pup-products-text",
+      "name": "Pup Products – Center Text",
       "settings": {
-        "left_image": "shopify://shop_images/Sale_on_sale-removebg-preview_f97c66a3-5910-4707-aaac-688a5683ee19.png",
-        "right_richtext_top": "<p>Save an extra 30% sale styles (prices are marked).</p>",
-        "right_richtext_bottom": "<p>SHOP SALE ON SALE</p>",
-        "section_bg": "#ff6ac6",
-        "bottom_text_bg": "rgba(0,0,0,0)"
+        "label": "Our Pup Products",
+        "quote": "“Every detail has a purpose, every design has a story.” <br>Robin L. Robinson",
+        "text": "<p>Our dog apparel combines robust functionality, thoughtful features, and calming, plant-inspired aesthetics. From harnesses with mobility handles and integrated storage to custom bandanas and accessories, each piece is carefully designed to support both pets and their people—functionally and emotionally. Every stitch, every material choice, and every design element is chosen to ensure comfort, durability, and style, so your pup can enjoy every adventure safely and happily.</p>",
+        "divider_width": 15,
+        "background_color": "#ffffff",
+        "label_color": "#000000",
+        "quote_color": "#000000",
+        "divider_color": "#000000",
+        "text_color": "#555555"
       }
     },
     "collection_list_DRzCfx": {
@@ -108,30 +112,57 @@
         "padding_bottom": 36
       }
     },
-    "feature_carousel_collection_r3mphB": {
-      "type": "feature-carousel-collection",
-      "name": "Feature Carousel Section",
+    "logo_marquee_7Fn9CB": {
+      "type": "logo-marquee",
+      "blocks": {
+        "logo_EiDXGB": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/real_simple_wh.png",
+            "logo_width": 130
+          }
+        },
+        "logo_atbUca": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/popsugar_wh.png",
+            "logo_width": 130
+          }
+        },
+        "logo_AT8Yiw": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cnet_wh.png",
+            "logo_width": 130
+          }
+        },
+        "logo_yCmFLR": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/forbes_wh.png",
+            "logo_width": 130
+          }
+        },
+        "logo_NwRdpj": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/glamour_wh.png",
+            "logo_width": 130
+          }
+        }
+      },
+      "block_order": [
+        "logo_EiDXGB",
+        "logo_atbUca",
+        "logo_AT8Yiw",
+        "logo_yCmFLR",
+        "logo_NwRdpj"
+      ],
+      "name": "Logo Marquee (Trust)",
       "settings": {
-        "image_selector": "shopify://shop_images/InteractiveToys_Desktop_52f3b5c8-976b-4fef-8a8e-40a412621049.jpg",
-        "image_url": "",
-        "feature_left_text": "Interactive toys",
-        "shop_text": "Shop toys",
-        "collection_select": "frontpage",
-        "margin_top": 20,
-        "margin_bottom": 20
-      }
-    },
-    "feature_carousel_collection_QJe48W": {
-      "type": "feature-carousel-collection",
-      "name": "Feature Carousel Section",
-      "settings": {
-        "image_selector": "shopify://shop_images/Sweaters_Desktop.jpg",
-        "image_url": "",
-        "feature_left_text": "Heartwarming Apparel",
-        "shop_text": "Shop sweaters + jackets",
-        "collection_select": "frontpage",
-        "margin_top": 20,
-        "margin_bottom": 20
+        "heading": "",
+        "section_background": "#54723d",
+        "scroll_speed": 8000
       }
     },
     "image_with_text_YXtQta": {
@@ -183,6 +214,137 @@
         "padding_bottom": 36
       }
     },
+    "custom_reviews_fyE9nP": {
+      "type": "custom-reviews",
+      "blocks": {
+        "review_rpTNgw": {
+          "type": "review",
+          "settings": {
+            "review_text": "“The cutest bandana! We got it personalized with Sadie’s name and it’s so well done, honestly perfect. My girly looks so cute.”",
+            "signature": "John D."
+          }
+        },
+        "review_FPPecR": {
+          "type": "review",
+          "settings": {
+            "review_text": "“As a first-time buyer, I didn’t know what to expect and was blown away by the attention to detail, the beautiful design, and the material. Thank you!”",
+            "signature": "John D."
+          }
+        },
+        "review_pHC6dX": {
+          "type": "review",
+          "settings": {
+            "review_text": "“We love all our Foggy Dog products. Excellent quality, beautiful fabrics and I love that every purchase feeds a shelter dog.”",
+            "signature": "John D."
+          }
+        }
+      },
+      "block_order": [
+        "review_rpTNgw",
+        "review_FPPecR",
+        "review_pHC6dX"
+      ],
+      "name": "Custom Testimonial",
+      "settings": {
+        "heading": "Making Tails Wag",
+        "subheading": "Over 10,000 five-star reviews from happy pup-stomers. Find out why pet parents love The Foggy Dog."
+      }
+    },
+    "dog_benefits_7khUza": {
+      "type": "dog-benefits",
+      "blocks": {
+        "feature_KNPjHr": {
+          "type": "feature",
+          "settings": {
+            "title": "Mobility Handles",
+            "text": "Easy to carry and handle for every outing",
+            "bg_color": "#f9f9f9",
+            "padding": 20,
+            "border_radius": 16
+          }
+        },
+        "feature_rkYmJM": {
+          "type": "feature",
+          "settings": {
+            "title": "Integrated Storage",
+            "text": "Keep all essentials organized",
+            "bg_color": "#f9f9f9",
+            "padding": 20,
+            "border_radius": 16
+          }
+        },
+        "feature_MgHLgp": {
+          "type": "feature",
+          "settings": {
+            "title": "Comfort Fit",
+            "text": "Designed for you and your dog’s comfort",
+            "bg_color": "#f9f9f9",
+            "padding": 20,
+            "border_radius": 16
+          }
+        },
+        "feature_QzRNPE": {
+          "type": "feature",
+          "settings": {
+            "title": "Calm Design",
+            "text": "Minimalistic & soothing aesthetics",
+            "bg_color": "#f9f9f9",
+            "padding": 20,
+            "border_radius": 16
+          }
+        }
+      },
+      "block_order": [
+        "feature_KNPjHr",
+        "feature_rkYmJM",
+        "feature_MgHLgp",
+        "feature_QzRNPE"
+      ],
+      "name": "Dog Benefits Section",
+      "settings": {
+        "heading": "Dog Life Benefits"
+      }
+    },
+    "custom_image_text_split_RRhTXM": {
+      "type": "custom-image-text-split",
+      "disabled": true,
+      "name": "Custom Image Text Split",
+      "settings": {
+        "left_image": "shopify://shop_images/Sale_on_sale-removebg-preview_f97c66a3-5910-4707-aaac-688a5683ee19.png",
+        "right_richtext_top": "<p>Save an extra 30% sale styles (prices are marked).</p>",
+        "right_richtext_bottom": "<p>SHOP SALE ON SALE</p>",
+        "section_bg": "#ff6ac6",
+        "bottom_text_bg": "rgba(0,0,0,0)"
+      }
+    },
+    "feature_carousel_collection_r3mphB": {
+      "type": "feature-carousel-collection",
+      "disabled": true,
+      "name": "Feature Carousel Section",
+      "settings": {
+        "image_selector": "shopify://shop_images/InteractiveToys_Desktop_52f3b5c8-976b-4fef-8a8e-40a412621049.jpg",
+        "image_url": "",
+        "feature_left_text": "Interactive toys",
+        "shop_text": "Shop toys",
+        "collection_select": "frontpage",
+        "margin_top": 20,
+        "margin_bottom": 20
+      }
+    },
+    "feature_carousel_collection_QJe48W": {
+      "type": "feature-carousel-collection",
+      "disabled": true,
+      "name": "Feature Carousel Section",
+      "settings": {
+        "image_selector": "shopify://shop_images/Sweaters_Desktop.jpg",
+        "image_url": "",
+        "feature_left_text": "Heartwarming Apparel",
+        "shop_text": "Shop sweaters + jackets",
+        "collection_select": "frontpage",
+        "margin_top": 20,
+        "margin_bottom": 20
+      }
+    },
     "collection_list_Cy9MMU": {
       "type": "collection-list",
       "blocks": {
@@ -210,6 +372,7 @@
         "featured_collection_eiyCbm",
         "featured_collection_nbRwrY"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "Collections",
@@ -286,6 +449,7 @@
         "text_x6ML4h",
         "button_wYtbKE"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -294,42 +458,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "custom_reviews_fyE9nP": {
-      "type": "custom-reviews",
-      "blocks": {
-        "review_rpTNgw": {
-          "type": "review",
-          "settings": {
-            "review_text": "“The cutest bandana! We got it personalized with Sadie’s name and it’s so well done, honestly perfect. My girly looks so cute.”",
-            "signature": "John D."
-          }
-        },
-        "review_FPPecR": {
-          "type": "review",
-          "settings": {
-            "review_text": "“As a first-time buyer, I didn’t know what to expect and was blown away by the attention to detail, the beautiful design, and the material. Thank you!”",
-            "signature": "John D."
-          }
-        },
-        "review_pHC6dX": {
-          "type": "review",
-          "settings": {
-            "review_text": "“We love all our Foggy Dog products. Excellent quality, beautiful fabrics and I love that every purchase feeds a shelter dog.”",
-            "signature": "John D."
-          }
-        }
-      },
-      "block_order": [
-        "review_rpTNgw",
-        "review_FPPecR",
-        "review_pHC6dX"
-      ],
-      "name": "Custom Testimonial",
-      "settings": {
-        "heading": "Making Tails Wag",
-        "subheading": "Over 10,000 five-star reviews from happy pup-stomers. Find out why pet parents love The Foggy Dog."
       }
     },
     "custom_image_slider_P3WcwB": {
@@ -412,15 +540,18 @@
   },
   "order": [
     "custom_hero_banner_38fcPm",
-    "custom_image_text_split_RRhTXM",
+    "pup_products_text_LfACnd",
     "collection_list_DRzCfx",
+    "logo_marquee_7Fn9CB",
+    "image_with_text_YXtQta",
+    "custom_reviews_fyE9nP",
+    "dog_benefits_7khUza",
+    "custom_image_text_split_RRhTXM",
     "feature_carousel_collection_r3mphB",
     "feature_carousel_collection_QJe48W",
-    "image_with_text_YXtQta",
     "collection_list_Cy9MMU",
     "featured_collection_xGB6dg",
     "rich_text_bL6R9T",
-    "custom_reviews_fyE9nP",
     "custom_image_slider_P3WcwB"
   ]
 }
