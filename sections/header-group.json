@@ -41,21 +41,21 @@
         "mega_menu_card_93UKm9": {
           "type": "mega_menu_card",
           "settings": {
-            "menu_name": "Products",
+            "menu_name": "Collection",
             "mega_menu_image": "shopify://shop_images/milo_red_sweater.jpg",
-            "mega_menu_card_text": "test text",
-            "mega_menu_card_url": "",
-            "mega_menu_card_url_label": ""
+            "mega_menu_card_text": "Product 1",
+            "mega_menu_card_url": "shopify://products/animals-and-pet-supplies-example-product-1",
+            "mega_menu_card_url_label": "Shop Now"
           }
         },
         "mega_menu_card_zafcKJ": {
           "type": "mega_menu_card",
           "settings": {
-            "menu_name": "Products",
+            "menu_name": "Collection",
             "mega_menu_image": "shopify://shop_images/Jax_green_sweater.jpg",
-            "mega_menu_card_text": "test text",
-            "mega_menu_card_url": "",
-            "mega_menu_card_url_label": ""
+            "mega_menu_card_text": "Product 2",
+            "mega_menu_card_url": "shopify://products/animals-and-pet-supplies-example-product-3",
+            "mega_menu_card_url_label": "Shop Now"
           }
         }
       },
