@@ -42,7 +42,7 @@
           "type": "mega_menu_card",
           "settings": {
             "menu_name": "Products",
-            "mega_menu_image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
+            "mega_menu_image": "shopify://shop_images/milo_red_sweater.jpg",
             "mega_menu_card_text": "test text",
             "mega_menu_card_url": "",
             "mega_menu_card_url_label": ""
@@ -52,7 +52,7 @@
           "type": "mega_menu_card",
           "settings": {
             "menu_name": "Products",
-            "mega_menu_image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
+            "mega_menu_image": "shopify://shop_images/Jax_green_sweater.jpg",
             "mega_menu_card_text": "test text",
             "mega_menu_card_url": "",
             "mega_menu_card_url_label": ""
@@ -66,7 +66,7 @@
       "settings": {
         "logo_position": "top-center",
         "mobile_logo_position": "center",
-        "menu": "main-menu",
+        "menu": "main-menu-copy",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
