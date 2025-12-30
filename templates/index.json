@@ -27,7 +27,7 @@
         "featured_collection_hCqaPL": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": ""
           }
         },
         "featured_collection_d4KDBF": {
@@ -39,7 +39,7 @@
         "featured_collection_Afxmxd": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": ""
           }
         },
         "featured_collection_LecRfM": {
@@ -51,7 +51,7 @@
         "featured_collection_qeMWwz": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": ""
           }
         },
         "featured_collection_y86TMJ": {
@@ -63,7 +63,7 @@
         "featured_collection_mYChRQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": ""
           }
         },
         "featured_collection_nq6ibb": {
@@ -101,7 +101,6 @@
       "type": "feature-carousel-collection",
       "name": "Feature Carousel Section",
       "settings": {
-        "image_selector": "shopify://shop_images/Sweaters_Desktop.jpg",
         "image_url": "",
         "feature_left_text": "Heartwarming Apparel",
         "shop_text": "Shop sweaters + jackets",
@@ -114,7 +113,6 @@
       "type": "feature-carousel-collection",
       "name": "Feature Carousel Section",
       "settings": {
-        "image_selector": "shopify://shop_images/InteractiveToys_Desktop_52f3b5c8-976b-4fef-8a8e-40a412621049.jpg",
         "image_url": "",
         "feature_left_text": "Interactive toys",
         "shop_text": "Shop toys",
@@ -198,7 +196,6 @@
       "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/IMG_6637_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -327,56 +324,48 @@
         "image_HyJqYf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         },
         "image_HUaDMr": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         },
         "image_cDUVwg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         },
         "image_QcHgei": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         },
         "image_frpPxC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         },
         "image_yPYPfM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         },
         "image_weEGNC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         },
         "image_hiwPET": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hearts_On_White_25-10-28_6647-Crop.jpg",
             "link": ""
           }
         }
@@ -432,35 +421,30 @@
         "logo_EiDXGB": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/real_simple_wh.png",
             "logo_width": 130
           }
         },
         "logo_atbUca": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/popsugar_wh.png",
             "logo_width": 130
           }
         },
         "logo_AT8Yiw": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/cnet_wh.png",
             "logo_width": 130
           }
         },
         "logo_yCmFLR": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/forbes_wh.png",
             "logo_width": 130
           }
         },
         "logo_NwRdpj": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/glamour_wh.png",
             "logo_width": 130
           }
         }
