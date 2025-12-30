@@ -101,10 +101,11 @@
       "type": "feature-carousel-collection",
       "name": "Feature Carousel Section",
       "settings": {
+        "image_selector": "shopify://shop_images/small-puppy-paws-on-a-white-blanket.jpg",
         "image_url": "",
         "feature_left_text": "Heartwarming Apparel",
         "shop_text": "Shop sweaters + jackets",
-        "collection_select": "frontpage",
+        "collection_select": "animals-and-pet-supplies-example-products",
         "margin_top": 20,
         "margin_bottom": 20
       }
@@ -113,10 +114,11 @@
       "type": "feature-carousel-collection",
       "name": "Feature Carousel Section",
       "settings": {
+        "image_selector": "shopify://shop_images/small-puppy-paws-on-a-white-blanket.jpg",
         "image_url": "",
         "feature_left_text": "Interactive toys",
         "shop_text": "Shop toys",
-        "collection_select": "frontpage",
+        "collection_select": "animals-and-pet-supplies-example-products",
         "margin_top": 20,
         "margin_bottom": 20
       }
