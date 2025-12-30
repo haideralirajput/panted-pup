@@ -129,7 +129,7 @@
         "featured_collection_kxgnMD": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": ""
           }
         },
         "featured_collection_eiyCbm": {
@@ -141,7 +141,7 @@
         "featured_collection_nbRwrY": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": ""
           }
         }
       },
