@@ -198,6 +198,7 @@
       "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/IMG_5923_7baca9dc-5d3c-48fc-a4dd-53273eafa34d.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
