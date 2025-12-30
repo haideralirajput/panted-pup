@@ -327,61 +327,69 @@
         "image_HyJqYf": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         },
-        "image_HUaDMr": {
+        "image_igNDEw": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         },
-        "image_cDUVwg": {
+        "image_B8z8R9": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         },
-        "image_QcHgei": {
+        "image_9VVBy4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         },
-        "image_frpPxC": {
+        "image_GwtJTg": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         },
-        "image_yPYPfM": {
+        "image_c4M7nA": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         },
-        "image_weEGNC": {
+        "image_kMhBQY": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         },
-        "image_hiwPET": {
+        "image_XkTQYb": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/milo_red_sweater.jpg",
             "link": ""
           }
         }
       },
       "block_order": [
         "image_HyJqYf",
-        "image_HUaDMr",
-        "image_cDUVwg",
-        "image_QcHgei",
-        "image_frpPxC",
-        "image_yPYPfM",
-        "image_weEGNC",
-        "image_hiwPET"
+        "image_igNDEw",
+        "image_B8z8R9",
+        "image_9VVBy4",
+        "image_GwtJTg",
+        "image_c4M7nA",
+        "image_kMhBQY",
+        "image_XkTQYb"
       ],
       "name": "Custom Image Slider",
       "settings": {
