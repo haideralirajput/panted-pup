@@ -11,13 +11,54 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_YzPeR6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Hccizq": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Me",
+            "heading_size": "h1"
+          }
+        },
+        "text_dBbnYc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>My brand is deeply personal to me. After losing both of my parents, I found comfort and healing in the plants inherited from my mother, Lena, and the companionship of my dog, Lucy—who now requires extra care after a diagnosis of Cushing’s disease. This nurturing relationship inspired the creation of The Planted Pup by Robin™. My marketing expertise and unique, eclectic style drive my passion for leading this company.</p><p>Today’s world is increasingly stressful, with anxiety, burnout, and depression on the rise. Scientific studies confirm that both plants and pets significantly reduce stress and boost mental health. Yet, pet parents often struggle to find apparel and accessories that reflect this nurturing, holistic lifestyle. The Planted Pup by Robin™ addresses this gap by offering what we like to think of as a “social prescription for wellness.”</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hccizq",
+        "text_dBbnYc"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/PlantedPup-Robin-02_30745ea2-e825-47db-9692-a2df521abf4b.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_YzPeR6"
   ]
 }
