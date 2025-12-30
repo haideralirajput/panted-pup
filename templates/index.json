@@ -260,7 +260,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "frontpage",
+        "collection": "animals-and-pet-supplies-example-products",
         "products_to_show": 4,
         "title": "Top Picks",
         "heading_size": "h1",
