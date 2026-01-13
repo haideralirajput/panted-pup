@@ -13,7 +13,7 @@
       "type": "custom-hero-banner",
       "name": "Custom Hero Banner",
       "settings": {
-        "heading": "Martial broo",
+        "heading": "The Valentine's Day Shop",
         "subheading": "Fall in love with our sweetest collection yet.",
         "button_text": "SHOP VALENTINE'S DAY",
         "button_link": "#",
@@ -219,7 +219,7 @@
         "heading_9bRaYW": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Every order feeds a shelter dog.",
             "heading_size": "h1"
           }
         },
