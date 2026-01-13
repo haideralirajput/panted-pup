@@ -11,7 +11,6 @@
   "sections": {
     "custom_hero_banner_38fcPm": {
       "type": "custom-hero-banner",
-      "disabled": true,
       "name": "Custom Hero Banner",
       "settings": {
         "heading": "The Valentine's Day Shop",
