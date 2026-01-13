@@ -85,19 +85,6 @@
         "padding_bottom": 36
       }
     },
-    "feature_carousel_collection_QJe48W": {
-      "type": "feature-carousel-collection",
-      "name": "Feature Carousel Section",
-      "settings": {
-        "image_selector": "shopify://shop_images/small-puppy-paws-on-a-white-blanket.jpg",
-        "image_url": "",
-        "feature_left_text": "Heartwarming Apparel",
-        "shop_text": "Shop sweaters + jackets",
-        "collection_select": "animals-and-pet-supplies-example-products",
-        "margin_top": 20,
-        "margin_bottom": 20
-      }
-    },
     "feature_carousel_collection_r3mphB": {
       "type": "feature-carousel-collection",
       "name": "Feature Carousel Section",
@@ -522,7 +509,6 @@
   },
   "order": [
     "collection_list_DRzCfx",
-    "feature_carousel_collection_QJe48W",
     "feature_carousel_collection_r3mphB",
     "collection_list_Cy9MMU",
     "image_with_text_YXtQta",
