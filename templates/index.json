@@ -9,18 +9,6 @@
  */
 {
   "sections": {
-    "custom_hero_banner_38fcPm": {
-      "type": "custom-hero-banner",
-      "name": "Custom Hero Banner",
-      "settings": {
-        "heading": "The Valentine's Day Shop",
-        "subheading": "",
-        "button_text": "SHOP VALENTINE'S DAY",
-        "button_link": "#",
-        "right_image": "shopify://shop_images/Gemini_Generated_Image_nxhj4unxhj4unxhj-removebg-preview.png",
-        "background_color": "#53713d"
-      }
-    },
     "collection_list_DRzCfx": {
       "type": "collection-list",
       "blocks": {
@@ -533,7 +521,6 @@
     }
   },
   "order": [
-    "custom_hero_banner_38fcPm",
     "collection_list_DRzCfx",
     "feature_carousel_collection_QJe48W",
     "feature_carousel_collection_r3mphB",
