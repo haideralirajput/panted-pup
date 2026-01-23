@@ -17,8 +17,57 @@
         "subheading": "Plant inspired designed dog apparel & accessories.",
         "button_text": "SHOP COLLECTIONS",
         "button_link": "#",
-        "right_image": "shopify://shop_images/5af965b9-d11f-494d-9ab0-64760a02956f_1.jpg",
+        "right_image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
         "background_color": "#53713d"
+      }
+    },
+    "image_banner_VVk8tt": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_MXU7Px": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_eeLRAy": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_QP9r6b": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MXU7Px",
+        "text_eeLRAy",
+        "buttons_QP9r6b"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-right",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "collection_list_DRzCfx": {
@@ -534,6 +583,7 @@
   },
   "order": [
     "custom_hero_banner_38fcPm",
+    "image_banner_VVk8tt",
     "collection_list_DRzCfx",
     "feature_carousel_collection_QJe48W",
     "feature_carousel_collection_r3mphB",
