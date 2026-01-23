@@ -27,8 +27,8 @@
         "heading_MXU7Px": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Pup apparel that loves you back!",
+            "heading_size": "h2"
           }
         },
         "text_eeLRAy": {
@@ -63,8 +63,8 @@
         "image_behavior": "none",
         "desktop_content_position": "bottom-right",
         "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true
@@ -268,14 +268,14 @@
         "heading_9bRaYW": {
           "type": "heading",
           "settings": {
-            "heading": "Every order feeds a shelter dog.",
+            "heading": "Every detail has a purpose. Every design has a story.",
             "heading_size": "h1"
           }
         },
         "text_x6ML4h": {
           "type": "text",
           "settings": {
-            "text": "<p>With every order, we give one pound of food to rescue shelters across America. Thank you for helping us help them!</p>"
+            "text": ""
           }
         },
         "button_wYtbKE": {
@@ -579,6 +579,69 @@
       "settings": {
         "heading": "Dog Life Benefits"
       }
+    },
+    "17692093751c648a82": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e059f85_XiWiyi": {
+          "type": "ai_gen_block_e059f85",
+          "settings": {
+            "show_text_box": true,
+            "heading": "<p>Welcome</p>",
+            "text": "<p>Discover our latest collection</p>",
+            "text_box_position": "bottom-right",
+            "text_box_size": 250,
+            "text_box_padding": 30,
+            "text_box_offset_horizontal": 40,
+            "text_box_offset_vertical": 40,
+            "text_box_bg_color": "#f5ecd2",
+            "text_color": "#121212",
+            "heading_size": 28,
+            "heading_spacing": 12,
+            "text_size": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e059f85_XiWiyi"
+      ],
+      "settings": {}
+    },
+    "1769209579bd88976b": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_11c23d5_zeaEPe": {
+          "type": "ai_gen_block_11c23d5",
+          "settings": {
+            "banner_image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
+            "banner_height": 600,
+            "banner_height_mobile": 400,
+            "text_box_position": "bottom-right",
+            "text_box_size": 320,
+            "text_box_padding": 20,
+            "text_box_offset_horizontal": 20,
+            "text_box_offset_vertical": 0,
+            "text_box_bg_color": "#f5ecd2",
+            "heading": "Pup Apparel that loves you back!",
+            "body_text": "<p>The Planted Pup by Robin™ blends plant-inspired design with functional, thoughtfully made dog apparel and accessories. Each piece is rooted in the calmness of plant care and pet companionship—turning everyday routines into moments of grounding, connection, and emotional wellness for both pups and their people.<br/><br/><br/></p>",
+            "text_color": "#121212",
+            "heading_size": 16,
+            "body_text_size": 14,
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_bg_color": "#8fab3a",
+            "button_text_color": "#f5ecd2",
+            "button_text_size": 14,
+            "button_border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_11c23d5_zeaEPe"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -596,6 +659,8 @@
     "pup_products_text_LfACnd",
     "custom_image_text_split_RRhTXM",
     "logo_marquee_7Fn9CB",
-    "dog_benefits_7khUza"
+    "dog_benefits_7khUza",
+    "17692093751c648a82",
+    "1769209579bd88976b"
   ]
 }
