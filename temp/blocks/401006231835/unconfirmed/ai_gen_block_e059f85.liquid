@@ -1,6 +1,311 @@
+{% doc %}
+  @prompt
+    Create an image banner section with a customizable square text box overlay. The text box should have a cream-colored background and be positioned in the lower right corner of the banner image. Include settings to adjust the text box size, background color, text content, and position. The text box should maintain a square or compact rectangular shape and not cover the entire banner.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-image-banner-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .ai-image-banner__image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ai-image-banner__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-image-banner__placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    min-height: 400px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-image-banner__placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 400px;
+  }
+
+  .ai-image-banner__empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-image-banner__text-box-{{ ai_gen_id }} {
+    position: absolute;
+    background-color: {{ block.settings.text_box_bg_color }};
+    padding: {{ block.settings.text_box_padding }}px;
+    max-width: {{ block.settings.text_box_size }}px;
+    width: {{ block.settings.text_box_size }}px;
+    {% if block.settings.text_box_position == 'bottom-right' %}
+      bottom: {{ block.settings.text_box_offset_vertical }}px;
+      right: {{ block.settings.text_box_offset_horizontal }}px;
+    {% elsif block.settings.text_box_position == 'bottom-left' %}
+      bottom: {{ block.settings.text_box_offset_vertical }}px;
+      left: {{ block.settings.text_box_offset_horizontal }}px;
+    {% elsif block.settings.text_box_position == 'top-right' %}
+      top: {{ block.settings.text_box_offset_vertical }}px;
+      right: {{ block.settings.text_box_offset_horizontal }}px;
+    {% elsif block.settings.text_box_position == 'top-left' %}
+      top: {{ block.settings.text_box_offset_vertical }}px;
+      left: {{ block.settings.text_box_offset_horizontal }}px;
+    {% endif %}
+  }
+
+  .ai-image-banner__heading-{{ ai_gen_id }} {
+    margin: 0 0 {{ block.settings.heading_spacing }}px 0;
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    line-height: 1.2;
+  }
+
+  .ai-image-banner__text-{{ ai_gen_id }} {
+    margin: 0;
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-image-banner__text-box-{{ ai_gen_id }} {
+      max-width: calc({{ block.settings.text_box_size }}px * 0.8);
+      width: calc({{ block.settings.text_box_size }}px * 0.8);
+      padding: calc({{ block.settings.text_box_padding }}px * 0.8);
+      {% if block.settings.text_box_position == 'bottom-right' %}
+        bottom: calc({{ block.settings.text_box_offset_vertical }}px * 0.5);
+        right: calc({{ block.settings.text_box_offset_horizontal }}px * 0.5);
+      {% elsif block.settings.text_box_position == 'bottom-left' %}
+        bottom: calc({{ block.settings.text_box_offset_vertical }}px * 0.5);
+        left: calc({{ block.settings.text_box_offset_horizontal }}px * 0.5);
+      {% elsif block.settings.text_box_position == 'top-right' %}
+        top: calc({{ block.settings.text_box_offset_vertical }}px * 0.5);
+        right: calc({{ block.settings.text_box_offset_horizontal }}px * 0.5);
+      {% elsif block.settings.text_box_position == 'top-left' %}
+        top: calc({{ block.settings.text_box_offset_vertical }}px * 0.5);
+        left: calc({{ block.settings.text_box_offset_horizontal }}px * 0.5);
+      {% endif %}
+    }
+
+    .ai-image-banner__heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+      margin-bottom: calc({{ block.settings.heading_spacing }}px * 0.8);
+    }
+
+    .ai-image-banner__text-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.text_size }}px * 0.8);
+    }
+  }
+{% endstyle %}
+
+<div class="ai-image-banner-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-image-banner__image-wrapper-{{ ai_gen_id }}">
+    {% if block.settings.banner_image %}
+      <img
+        src="{{ block.settings.banner_image | image_url: width: 2000 }}"
+        alt="{{ block.settings.banner_image.alt | escape }}"
+        loading="lazy"
+        width="{{ block.settings.banner_image.width }}"
+        height="{{ block.settings.banner_image.height }}"
+        class="ai-image-banner__image-{{ ai_gen_id }}"
+      >
+    {% else %}
+      <div class="ai-image-banner__placeholder-{{ ai_gen_id }}">
+        {{ 'hero-apparel-1' | placeholder_svg_tag }}
+        <div class="ai-image-banner__empty-state-{{ ai_gen_id }}">
+          Add a banner image to get started
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.show_text_box %}
+      <div class="ai-image-banner__text-box-{{ ai_gen_id }}">
+        {% if block.settings.heading != blank %}
+          <h2 class="ai-image-banner__heading-{{ ai_gen_id }}">
+            {{ block.settings.heading }}
+          </h2>
+        {% endif %}
+        {% if block.settings.text != blank %}
+          <div class="ai-image-banner__text-{{ ai_gen_id }}">
+            {{ block.settings.text }}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Banner with text box",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Banner image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Text box"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_text_box",
+      "label": "Show text box",
+      "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<p>Welcome</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Discover our latest collection</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_box_position",
+      "label": "Position",
+      "options": [
+        {
+          "value": "bottom-right",
+          "label": "Bottom right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "top-right",
+          "label": "Top right"
+        },
+        {
+          "value": "top-left",
+          "label": "Top left"
+        }
+      ],
+      "default": "bottom-right"
+    },
+    {
+      "type": "range",
+      "id": "text_box_size",
+      "min": 150,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "label": "Box size",
+      "default": 250
+    },
+    {
+      "type": "range",
+      "id": "text_box_padding",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Box padding",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "text_box_offset_horizontal",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Horizontal offset",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "text_box_offset_vertical",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Vertical offset",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "text_box_bg_color",
+      "label": "Background color",
+      "default": "#f5ecd2"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#121212"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading spacing",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner with text box"
+    }
+  ]
+}
 {% endschema %}
