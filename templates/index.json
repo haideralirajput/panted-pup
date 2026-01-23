@@ -13,11 +13,11 @@
       "type": "custom-hero-banner",
       "name": "Custom Hero Banner",
       "settings": {
-        "heading": "The Valentine's Day Shop",
-        "subheading": "Fall in love with our sweetest collection yet.",
-        "button_text": "SHOP VALENTINE'S DAY",
+        "heading": "The Planted Pup by Robin®",
+        "subheading": "Plant inspired designed dog apparel & accessories.",
+        "button_text": "SHOP COLLECTIONS",
         "button_link": "#",
-        "right_image": "shopify://shop_images/Gemini_Generated_Image_nxhj4unxhj4unxhj-removebg-preview.png",
+        "right_image": "shopify://shop_images/5af965b9-d11f-494d-9ab0-64760a02956f_1.jpg",
         "background_color": "#53713d"
       }
     },
