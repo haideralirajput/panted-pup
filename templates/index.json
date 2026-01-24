@@ -39,7 +39,7 @@
         "featured_collection_Afxmxd": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "the-planted-vest-collection"
           }
         },
         "featured_collection_qeMWwz": {
@@ -101,9 +101,9 @@
       "type": "feature-carousel-collection",
       "name": "Feature Carousel Section",
       "settings": {
-        "image_selector": "shopify://shop_images/small-puppy-paws-on-a-white-blanket.jpg",
+        "image_selector": "shopify://shop_images/3a3aff71-e3d4-4198-99ea-9a3bcb0a853b.jpg",
         "image_url": "",
-        "feature_left_text": "Heartwarming Apparel",
+        "feature_left_text": "Roses are Red",
         "shop_text": "Shop sweaters + jackets",
         "collection_select": "animals-and-pet-supplies-example-products",
         "margin_top": 20,
@@ -114,10 +114,10 @@
       "type": "feature-carousel-collection",
       "name": "Feature Carousel Section",
       "settings": {
-        "image_selector": "shopify://shop_images/small-puppy-paws-on-a-white-blanket.jpg",
+        "image_selector": "shopify://shop_images/5f5ccd5c-9e95-46a0-9e1b-197fccfa0780.jpg",
         "image_url": "",
-        "feature_left_text": "Interactive toys",
-        "shop_text": "Shop toys",
+        "feature_left_text": "Accessories ... The Planted Pup by Robin style...",
+        "shop_text": "Shop Accessories",
         "collection_select": "animals-and-pet-supplies-example-products",
         "margin_top": 20,
         "margin_bottom": 20

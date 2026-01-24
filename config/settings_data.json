@@ -45,7 +45,7 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-2",
+    "card_color_scheme": "scheme-4a751cf5-ad54-4f54-8943-5beac2d13a12",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -145,10 +145,10 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#8fab3a",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#8fab3a",
+          "text": "#53713d",
+          "button": "{{ shop.brand.colors.primary[0].foreground }}",
           "button_label": "#f5ecd2",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
