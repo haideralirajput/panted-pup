@@ -27,7 +27,7 @@
         "featured_collection_YhYgE6": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "personalization"
           }
         },
         "featured_collection_hCqaPL": {
@@ -45,31 +45,37 @@
         "featured_collection_qeMWwz": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "the-bandana-collection"
           }
         },
         "featured_collection_y86TMJ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "test-collection"
+            "collection": "the-backpack-collection"
           }
         },
         "featured_collection_mYChRQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "the-planted-accessories"
           }
         },
         "featured_collection_nq6ibb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "test-collection"
+            "collection": "the-hoodie-collection"
           }
         },
         "featured_collection_AcGn7R": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "the-planted-harness-collar-leash-collection"
+          }
+        },
+        "featured_collection_xPrJxe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-tee-collection"
           }
         }
       },
@@ -81,7 +87,8 @@
         "featured_collection_y86TMJ",
         "featured_collection_mYChRQ",
         "featured_collection_nq6ibb",
-        "featured_collection_AcGn7R"
+        "featured_collection_AcGn7R",
+        "featured_collection_xPrJxe"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
@@ -125,31 +132,6 @@
     },
     "collection_list_Cy9MMU": {
       "type": "collection-list",
-      "blocks": {
-        "featured_collection_kxgnMD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_eiyCbm": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "test-collection"
-          }
-        },
-        "featured_collection_nbRwrY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_kxgnMD",
-        "featured_collection_eiyCbm",
-        "featured_collection_nbRwrY"
-      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "Collections",
