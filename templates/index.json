@@ -293,6 +293,12 @@
     "custom_image_slider_P3WcwB": {
       "type": "custom-image-slider",
       "blocks": {
+        "image_xNLPfW": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
         "image_HyJqYf": {
           "type": "image",
           "settings": {
@@ -351,6 +357,7 @@
         }
       },
       "block_order": [
+        "image_xNLPfW",
         "image_HyJqYf",
         "image_igNDEw",
         "image_B8z8R9",
