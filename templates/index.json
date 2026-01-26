@@ -502,30 +502,6 @@
     },
     "17692093751c648a82": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_e059f85_XiWiyi": {
-          "type": "ai_gen_block_e059f85",
-          "settings": {
-            "show_text_box": true,
-            "heading": "<p>Welcome</p>",
-            "text": "<p>Discover our latest collection</p>",
-            "text_box_position": "bottom-right",
-            "text_box_size": 250,
-            "text_box_padding": 30,
-            "text_box_offset_horizontal": 40,
-            "text_box_offset_vertical": 40,
-            "text_box_bg_color": "#f5ecd2",
-            "text_color": "#121212",
-            "heading_size": 28,
-            "heading_spacing": 12,
-            "text_size": 16
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_e059f85_XiWiyi"
-      ],
       "settings": {}
     },
     "1769209579bd88976b": {
