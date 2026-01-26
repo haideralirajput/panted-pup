@@ -11,9 +11,10 @@
   "sections": {
     "custom_hero_banner_38fcPm": {
       "type": "custom-hero-banner",
+      "disabled": true,
       "name": "Custom Hero Banner",
       "settings": {
-        "heading": "The Planted Pup <br> by Robin®",
+        "heading": "The Planted Pup  by Robin®",
         "subheading": "Plant inspired dog apparel & accessories.",
         "button_text": "SHOP COLLECTIONS",
         "button_link": "#",
@@ -541,6 +542,7 @@
     }
   },
   "order": [
+    "1769209579bd88976b",
     "custom_hero_banner_38fcPm",
     "collection_list_DRzCfx",
     "feature_carousel_collection_QJe48W",
@@ -554,7 +556,6 @@
     "custom_image_text_split_RRhTXM",
     "logo_marquee_7Fn9CB",
     "dog_benefits_7khUza",
-    "17692093751c648a82",
-    "1769209579bd88976b"
+    "17692093751c648a82"
   ]
 }
