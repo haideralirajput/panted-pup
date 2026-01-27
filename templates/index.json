@@ -9,9 +9,43 @@
  */
 {
   "sections": {
+    "1769209579bd88976b": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_11c23d5_zeaEPe": {
+          "type": "ai_gen_block_11c23d5",
+          "settings": {
+            "banner_image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
+            "banner_height": 600,
+            "banner_height_mobile": 400,
+            "text_box_position": "bottom-right",
+            "text_box_size": 320,
+            "text_box_padding": 20,
+            "text_box_offset_horizontal": 20,
+            "text_box_offset_vertical": 0,
+            "text_box_bg_color": "#f5ecd2",
+            "heading": "Pup Apparel that loves you back!",
+            "body_text": "<p>The Planted Pup by Robin™ blends plant-inspired design with functional, thoughtfully made dog apparel and accessories. Each piece is rooted in the calmness of plant care and pet companionship—turning everyday routines into moments of grounding, connection, and emotional wellness for both pups and their people.<br/><br/><br/></p>",
+            "text_color": "#121212",
+            "heading_size": 16,
+            "body_text_size": 14,
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_bg_color": "#8fab3a",
+            "button_text_color": "#f5ecd2",
+            "button_text_size": 14,
+            "button_border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_11c23d5_zeaEPe"
+      ],
+      "settings": {}
+    },
     "custom_hero_banner_38fcPm": {
       "type": "custom-hero-banner",
-      "disabled": true,
       "name": "Custom Hero Banner",
       "settings": {
         "heading": "The Planted Pup  by Robin®",
@@ -228,6 +262,7 @@
     },
     "featured_collection_xGB6dg": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "animals-and-pet-supplies-example-products",
@@ -297,56 +332,56 @@
         "image_HyJqYf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/63c8c949-87f9-40eb-a235-8557db251a2e_8a98161f-8239-47a5-a1a0-507ae8ba0b4e.jpg",
             "link": ""
           }
         },
         "image_igNDEw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/11b4d9f1-b31d-4ea4-b7db-7d36d39412a3_2a8f72a5-cadd-40b3-bd63-0f6b59ce76f1.jpg",
             "link": ""
           }
         },
         "image_B8z8R9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/a94109ba-3056-4e50-90ff-9a30a6e32e6f_56581744-1775-470d-b32c-59b5dde35d39.jpg",
             "link": ""
           }
         },
         "image_9VVBy4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/8e19cb05-e308-46dc-b9fd-0a348edcfb60_1.jpg",
             "link": ""
           }
         },
         "image_GwtJTg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/e5375825-0b6b-4386-94cc-00a886824b33_1_a115003a-9fd4-4d41-9d5c-fa2905750059.jpg",
             "link": ""
           }
         },
         "image_c4M7nA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/41a8186e-9b88-4c1d-9e7c-60082e065191_c22297f9-b7b8-42df-b42b-2bea3a4ae42c.jpg",
             "link": ""
           }
         },
         "image_kMhBQY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/3a3aff71-e3d4-4198-99ea-9a3bcb0a853b_fabb62f1-3e13-4d2a-9dff-0256af62af7e.jpg",
             "link": ""
           }
         },
         "image_XkTQYb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/milo_red_sweater.jpg",
+            "image": "shopify://shop_images/2e869d8a-be0d-44b5-abad-4e61aca876ef_0c75daf7-6506-4cbf-8859-6c2010141661.jpg",
             "link": ""
           }
         }
@@ -503,41 +538,6 @@
     },
     "17692093751c648a82": {
       "type": "_blocks",
-      "settings": {}
-    },
-    "1769209579bd88976b": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_11c23d5_zeaEPe": {
-          "type": "ai_gen_block_11c23d5",
-          "settings": {
-            "banner_image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
-            "banner_height": 600,
-            "banner_height_mobile": 400,
-            "text_box_position": "bottom-right",
-            "text_box_size": 320,
-            "text_box_padding": 20,
-            "text_box_offset_horizontal": 20,
-            "text_box_offset_vertical": 0,
-            "text_box_bg_color": "#f5ecd2",
-            "heading": "Pup Apparel that loves you back!",
-            "body_text": "<p>The Planted Pup by Robin™ blends plant-inspired design with functional, thoughtfully made dog apparel and accessories. Each piece is rooted in the calmness of plant care and pet companionship—turning everyday routines into moments of grounding, connection, and emotional wellness for both pups and their people.<br/><br/><br/></p>",
-            "text_color": "#121212",
-            "heading_size": 16,
-            "body_text_size": 14,
-            "button_text": "Shop now",
-            "button_link": "",
-            "button_bg_color": "#8fab3a",
-            "button_text_color": "#f5ecd2",
-            "button_text_size": 14,
-            "button_border_radius": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_11c23d5_zeaEPe"
-      ],
       "settings": {}
     }
   },
