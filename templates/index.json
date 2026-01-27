@@ -45,6 +45,18 @@
       ],
       "settings": {}
     },
+    "custom_hero_banner_38fcPm": {
+      "type": "custom-hero-banner",
+      "name": "Custom Hero Banner",
+      "settings": {
+        "heading": "The Planted Pup  by Robin®",
+        "subheading": "Plant inspired dog apparel & accessories.",
+        "button_text": "SHOP COLLECTIONS",
+        "button_link": "#",
+        "right_image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
+        "background_color": "#53713d"
+      }
+    },
     "rich_text_FbqLXF": {
       "type": "rich-text",
       "blocks": {
@@ -86,18 +98,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "custom_hero_banner_38fcPm": {
-      "type": "custom-hero-banner",
-      "name": "Custom Hero Banner",
-      "settings": {
-        "heading": "The Planted Pup  by Robin®",
-        "subheading": "Plant inspired dog apparel & accessories.",
-        "button_text": "SHOP COLLECTIONS",
-        "button_link": "#",
-        "right_image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
-        "background_color": "#53713d"
       }
     },
     "collection_list_DRzCfx": {
@@ -185,6 +185,7 @@
     },
     "feature_carousel_collection_QJe48W": {
       "type": "feature-carousel-collection",
+      "disabled": true,
       "name": "Feature Carousel Section",
       "settings": {
         "image_selector": "shopify://shop_images/3a3aff71-e3d4-4198-99ea-9a3bcb0a853b.jpg",
@@ -218,14 +219,14 @@
         "heading_qUbLC4": {
           "type": "heading",
           "settings": {
-            "heading": "Our Bark Brown Vest",
+            "heading": "Our Rose Red Sweater",
             "heading_size": "h1"
           }
         },
         "text_ydUVUN": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Vest Collection is perfect for those chilly days where a little extra layer is a welcomed addition! </p>",
+            "text": "<p>Our Rose Red Sweater from The Lena Collection is perfect for those occasions when you're wanting that effortlessly chic pop of color for your pup! </p>",
             "text_style": "body"
           }
         },
@@ -246,7 +247,7 @@
       "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/41a8186e-9b88-4c1d-9e7c-60082e065191.jpg",
+        "image": "shopify://shop_images/3a3aff71-e3d4-4198-99ea-9a3bcb0a853b_fabb62f1-3e13-4d2a-9dff-0256af62af7e.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
