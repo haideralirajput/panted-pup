@@ -370,6 +370,13 @@
             "image": "shopify://shop_images/2abfe253-3600-4826-a627-8dfafed3a651_9efd5ed3-7701-458d-a23b-5b3d6b8eda68.jpg",
             "link": ""
           }
+        },
+        "image_FMz8RQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6e583e71-7e6f-4fe0-a52d-065926858ccf_ba168e83-ee08-4b39-b7c7-92f4d8410493.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -381,7 +388,8 @@
         "image_GwtJTg",
         "image_kMhBQY",
         "image_hkqqY8",
-        "image_XkTQYb"
+        "image_XkTQYb",
+        "image_FMz8RQ"
       ],
       "name": "Custom Image Slider",
       "settings": {
