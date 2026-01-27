@@ -357,17 +357,17 @@
             "link": ""
           }
         },
-        "image_kMhBQY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3a3aff71-e3d4-4198-99ea-9a3bcb0a853b_fabb62f1-3e13-4d2a-9dff-0256af62af7e.jpg",
-            "link": ""
-          }
-        },
         "image_hkqqY8": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2e869d8a-be0d-44b5-abad-4e61aca876ef_016e33c2-00f9-4eff-97d9-96303438ecb5.jpg",
+            "link": ""
+          }
+        },
+        "image_kMhBQY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3a3aff71-e3d4-4198-99ea-9a3bcb0a853b_fabb62f1-3e13-4d2a-9dff-0256af62af7e.jpg",
             "link": ""
           }
         },
@@ -387,8 +387,8 @@
         "image_9VVBy4",
         "image_c4M7nA",
         "image_GwtJTg",
-        "image_kMhBQY",
         "image_hkqqY8",
+        "image_kMhBQY",
         "image_FMz8RQ"
       ],
       "name": "Custom Image Slider",
