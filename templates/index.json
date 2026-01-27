@@ -305,72 +305,6 @@
         "padding_bottom": 52
       }
     },
-    "featured_collection_xGB6dg": {
-      "type": "featured-collection",
-      "disabled": true,
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "animals-and-pet-supplies-example-products",
-        "products_to_show": 4,
-        "title": "Top Picks",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_reviews_fyE9nP": {
-      "type": "custom-reviews",
-      "blocks": {
-        "review_rpTNgw": {
-          "type": "review",
-          "settings": {
-            "review_text": "“The cutest bandana! We got it personalized with Sadie’s name and it’s so well done, honestly perfect. My girly looks so cute.”",
-            "signature": "John D."
-          }
-        },
-        "review_FPPecR": {
-          "type": "review",
-          "settings": {
-            "review_text": "“As a first-time buyer, I didn’t know what to expect and was blown away by the attention to detail, the beautiful design, and the material. Thank you!”",
-            "signature": "John D."
-          }
-        },
-        "review_pHC6dX": {
-          "type": "review",
-          "settings": {
-            "review_text": "“We love all our Foggy Dog products. Excellent quality, beautiful fabrics and I love that every purchase feeds a shelter dog.”",
-            "signature": "John D."
-          }
-        }
-      },
-      "block_order": [
-        "review_rpTNgw",
-        "review_FPPecR",
-        "review_pHC6dX"
-      ],
-      "name": "Custom Testimonial",
-      "settings": {
-        "heading": "The Planted Pup by Robin® <br>Nurture What Loves you Back!",
-        "subheading": "We love reviews from happy customers!"
-      }
-    },
     "custom_image_slider_P3WcwB": {
       "type": "custom-image-slider",
       "blocks": {
@@ -446,6 +380,72 @@
         "heading": "Rooted in Love.",
         "subheading": "We'd love to see your Planted Pup in their new gear! Please tag us on Instagram!",
         "small_text": "@theplantedpupbyrobin"
+      }
+    },
+    "featured_collection_xGB6dg": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "animals-and-pet-supplies-example-products",
+        "products_to_show": 4,
+        "title": "Top Picks",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_reviews_fyE9nP": {
+      "type": "custom-reviews",
+      "blocks": {
+        "review_rpTNgw": {
+          "type": "review",
+          "settings": {
+            "review_text": "“The cutest bandana! We got it personalized with Sadie’s name and it’s so well done, honestly perfect. My girly looks so cute.”",
+            "signature": "John D."
+          }
+        },
+        "review_FPPecR": {
+          "type": "review",
+          "settings": {
+            "review_text": "“As a first-time buyer, I didn’t know what to expect and was blown away by the attention to detail, the beautiful design, and the material. Thank you!”",
+            "signature": "John D."
+          }
+        },
+        "review_pHC6dX": {
+          "type": "review",
+          "settings": {
+            "review_text": "“We love all our Foggy Dog products. Excellent quality, beautiful fabrics and I love that every purchase feeds a shelter dog.”",
+            "signature": "John D."
+          }
+        }
+      },
+      "block_order": [
+        "review_rpTNgw",
+        "review_FPPecR",
+        "review_pHC6dX"
+      ],
+      "name": "Custom Testimonial",
+      "settings": {
+        "heading": "The Planted Pup by Robin® Nurture What Loves you Back!",
+        "subheading": "We love reviews from happy customers!"
       }
     },
     "pup_products_text_LfACnd": {
@@ -595,9 +595,9 @@
     "collection_list_Cy9MMU",
     "image_with_text_YXtQta",
     "rich_text_bL6R9T",
+    "custom_image_slider_P3WcwB",
     "featured_collection_xGB6dg",
     "custom_reviews_fyE9nP",
-    "custom_image_slider_P3WcwB",
     "pup_products_text_LfACnd",
     "custom_image_text_split_RRhTXM",
     "logo_marquee_7Fn9CB",
