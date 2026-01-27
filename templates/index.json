@@ -339,7 +339,7 @@
         "image_GwtJTg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/e5375825-0b6b-4386-94cc-00a886824b33_1_a115003a-9fd4-4d41-9d5c-fa2905750059.jpg",
+            "image": "shopify://shop_images/ff3d7813-3b7a-4762-88fd-81d26b333e34.jpg",
             "link": ""
           }
         },
@@ -360,7 +360,14 @@
         "image_XkTQYb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2e869d8a-be0d-44b5-abad-4e61aca876ef_0c75daf7-6506-4cbf-8859-6c2010141661.jpg",
+            "image": "shopify://shop_images/2abfe253-3600-4826-a627-8dfafed3a651_9efd5ed3-7701-458d-a23b-5b3d6b8eda68.jpg",
+            "link": ""
+          }
+        },
+        "image_hkqqY8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fde7eb0b-8b45-4b18-9d39-0cc15092a338_61c2c4e4-6e2d-4de5-bfb1-eac0d0ad6102.jpg",
             "link": ""
           }
         }
@@ -373,7 +380,8 @@
         "image_GwtJTg",
         "image_c4M7nA",
         "image_kMhBQY",
-        "image_XkTQYb"
+        "image_XkTQYb",
+        "image_hkqqY8"
       ],
       "name": "Custom Image Slider",
       "settings": {
@@ -410,42 +418,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "custom_reviews_fyE9nP": {
-      "type": "custom-reviews",
-      "blocks": {
-        "review_rpTNgw": {
-          "type": "review",
-          "settings": {
-            "review_text": "“The cutest bandana! We got it personalized with Sadie’s name and it’s so well done, honestly perfect. My girly looks so cute.”",
-            "signature": "John D."
-          }
-        },
-        "review_FPPecR": {
-          "type": "review",
-          "settings": {
-            "review_text": "“As a first-time buyer, I didn’t know what to expect and was blown away by the attention to detail, the beautiful design, and the material. Thank you!”",
-            "signature": "John D."
-          }
-        },
-        "review_pHC6dX": {
-          "type": "review",
-          "settings": {
-            "review_text": "“We love all our Foggy Dog products. Excellent quality, beautiful fabrics and I love that every purchase feeds a shelter dog.”",
-            "signature": "John D."
-          }
-        }
-      },
-      "block_order": [
-        "review_rpTNgw",
-        "review_FPPecR",
-        "review_pHC6dX"
-      ],
-      "name": "Custom Testimonial",
-      "settings": {
-        "heading": "The Planted Pup by Robin® Nurture What Loves you Back!",
-        "subheading": "We love reviews from happy customers!"
       }
     },
     "pup_products_text_LfACnd": {
@@ -597,7 +569,6 @@
     "rich_text_bL6R9T",
     "custom_image_slider_P3WcwB",
     "featured_collection_xGB6dg",
-    "custom_reviews_fyE9nP",
     "pup_products_text_LfACnd",
     "custom_image_text_split_RRhTXM",
     "logo_marquee_7Fn9CB",
