@@ -336,17 +336,17 @@
             "link": ""
           }
         },
-        "image_GwtJTg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ff3d7813-3b7a-4762-88fd-81d26b333e34.jpg",
-            "link": ""
-          }
-        },
         "image_c4M7nA": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/41a8186e-9b88-4c1d-9e7c-60082e065191_c22297f9-b7b8-42df-b42b-2bea3a4ae42c.jpg",
+            "link": ""
+          }
+        },
+        "image_GwtJTg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ff3d7813-3b7a-4762-88fd-81d26b333e34.jpg",
             "link": ""
           }
         },
@@ -377,8 +377,8 @@
         "image_igNDEw",
         "image_B8z8R9",
         "image_9VVBy4",
-        "image_GwtJTg",
         "image_c4M7nA",
+        "image_GwtJTg",
         "image_kMhBQY",
         "image_XkTQYb",
         "image_hkqqY8"
