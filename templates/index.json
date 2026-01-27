@@ -14,6 +14,7 @@
       "blocks": {
         "ai_gen_block_11c23d5_zeaEPe": {
           "type": "ai_gen_block_11c23d5",
+          "disabled": true,
           "settings": {
             "banner_image": "shopify://shop_images/resized_image_1280x720_fabc45db-4d20-4de1-ab61-1c915e1c70e1.jpg",
             "banner_height": 600,
@@ -43,6 +44,49 @@
         "ai_gen_block_11c23d5_zeaEPe"
       ],
       "settings": {}
+    },
+    "rich_text_FbqLXF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DeeAqg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pup Apparel that loves you back!",
+            "heading_size": "h1"
+          }
+        },
+        "text_eWCFMT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Planted Pup by Robin™ blends plant-inspired design with functional, thoughtfully made dog apparel and accessories. Each piece is rooted in the calmness of plant care and pet companionship—turning everyday routines into moments of grounding, connection, and emotional wellness for both pups and their people.</p>"
+          }
+        },
+        "button_NP8ngh": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DeeAqg",
+        "text_eWCFMT",
+        "button_NP8ngh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     },
     "custom_hero_banner_38fcPm": {
       "type": "custom-hero-banner",
@@ -544,6 +588,7 @@
   "order": [
     "1769209579bd88976b",
     "custom_hero_banner_38fcPm",
+    "rich_text_FbqLXF",
     "collection_list_DRzCfx",
     "feature_carousel_collection_QJe48W",
     "collection_list_Cy9MMU",
