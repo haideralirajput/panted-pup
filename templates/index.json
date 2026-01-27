@@ -357,17 +357,17 @@
             "link": ""
           }
         },
-        "image_XkTQYb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2abfe253-3600-4826-a627-8dfafed3a651_9efd5ed3-7701-458d-a23b-5b3d6b8eda68.jpg",
-            "link": ""
-          }
-        },
         "image_hkqqY8": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/fde7eb0b-8b45-4b18-9d39-0cc15092a338_61c2c4e4-6e2d-4de5-bfb1-eac0d0ad6102.jpg",
+            "link": ""
+          }
+        },
+        "image_XkTQYb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2abfe253-3600-4826-a627-8dfafed3a651_9efd5ed3-7701-458d-a23b-5b3d6b8eda68.jpg",
             "link": ""
           }
         }
@@ -380,8 +380,8 @@
         "image_c4M7nA",
         "image_GwtJTg",
         "image_kMhBQY",
-        "image_XkTQYb",
-        "image_hkqqY8"
+        "image_hkqqY8",
+        "image_XkTQYb"
       ],
       "name": "Custom Image Slider",
       "settings": {
