@@ -24,7 +24,7 @@
         "newsletter_block_ngxyFP": {
           "type": "newsletter_block",
           "settings": {
-            "newsletter_discount": "<p>Text <strong>PLANTEDPUP </strong>to <strong>41931</strong> to never miss a drop!</p>",
+            "newsletter_discount": "<p>Text <strong>PLANTEDPUP </strong>to 12345 to never miss a drop!</p>",
             "newsletter_text": "<p>By submitting this form, you consent to receive marketing text messages from The The Planted Pup by Robin  at the number provided, including messages sent by autodialer. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP. <a href=\"https://www.thefoggydog.com/policies/privacy-policy\"><br/>Privacy Policy</a> & <a href=\"https://www.thefoggydog.com/policies/terms-of-service\">Terms</a>.</p>"
           }
         }
