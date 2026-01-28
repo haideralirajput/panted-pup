@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "name": "Planted Pup of the Month",
       "settings": {
         "padding_top": 28,
@@ -30,7 +31,7 @@
         "text_pWyrFX": {
           "type": "text",
           "settings": {
-            "text": "<p>Meet this month's featured pup! Learn about their story, personality, and what makes them special. Share your own pup's story with us!</p>",
+            "text": "<h5><strong>Meet Lucy! </strong></h5>",
             "text_style": "body"
           }
         },
