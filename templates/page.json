@@ -1,14 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+      "name": "Planted Pup of The Month",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_K7KFrf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mgqDBY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Planted Pup of the Month",
+            "heading_size": "h1"
+          }
+        },
+        "text_pWyrFX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet this month's featured pup! Learn about their story, personality, and what makes them special. Share your own pup's story with us!</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8RPgxY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mgqDBY",
+        "text_pWyrFX",
+        "button_8RPgxY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/fde7eb0b-8b45-4b18-9d39-0cc15092a338_61c2c4e4-6e2d-4de5-bfb1-eac0d0ad6102.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_K7KFrf"
   ]
 }
