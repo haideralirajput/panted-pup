@@ -103,12 +103,6 @@
     "collection_list_DRzCfx": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_DUmq3X": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gift-cards"
-          }
-        },
         "featured_collection_hCqaPL": {
           "type": "featured_collection",
           "settings": {
@@ -162,10 +156,15 @@
           "settings": {
             "collection": "personalization"
           }
+        },
+        "featured_collection_DUmq3X": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-cards"
+          }
         }
       },
       "block_order": [
-        "featured_collection_DUmq3X",
         "featured_collection_hCqaPL",
         "featured_collection_Afxmxd",
         "featured_collection_nq6ibb",
@@ -174,7 +173,8 @@
         "featured_collection_y86TMJ",
         "featured_collection_mYChRQ",
         "featured_collection_AcGn7R",
-        "featured_collection_YhYgE6"
+        "featured_collection_YhYgE6",
+        "featured_collection_DUmq3X"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
