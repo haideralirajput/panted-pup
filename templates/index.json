@@ -103,6 +103,12 @@
     "collection_list_DRzCfx": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_DUmq3X": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-cards"
+          }
+        },
         "featured_collection_hCqaPL": {
           "type": "featured_collection",
           "settings": {
@@ -159,6 +165,7 @@
         }
       },
       "block_order": [
+        "featured_collection_DUmq3X",
         "featured_collection_hCqaPL",
         "featured_collection_Afxmxd",
         "featured_collection_nq6ibb",
@@ -173,7 +180,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
