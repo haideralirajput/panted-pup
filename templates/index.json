@@ -109,16 +109,16 @@
             "collection": "the-lena-sweater-collection"
           }
         },
-        "featured_collection_Afxmxd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-planted-vest-collection"
-          }
-        },
         "featured_collection_nq6ibb": {
           "type": "featured_collection",
           "settings": {
             "collection": "the-hoodie-collection"
+          }
+        },
+        "featured_collection_Afxmxd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-planted-vest-collection"
           }
         },
         "featured_collection_xPrJxe": {
@@ -166,8 +166,8 @@
       },
       "block_order": [
         "featured_collection_hCqaPL",
-        "featured_collection_Afxmxd",
         "featured_collection_nq6ibb",
+        "featured_collection_Afxmxd",
         "featured_collection_xPrJxe",
         "featured_collection_qeMWwz",
         "featured_collection_y86TMJ",
