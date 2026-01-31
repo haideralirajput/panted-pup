@@ -18,55 +18,6 @@
         "color_scheme": "scheme-1"
       }
     },
-    "image_banner_FyJ8Qr": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_GRcwGp": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Planted Hoodie Collection",
-            "heading_size": "h2"
-          }
-        },
-        "text_Kf7yfm": {
-          "type": "text",
-          "settings": {
-            "text": "Designed for movement, comfort, and everyday adventure, the Fern Hoodie Collection blends plant-inspired design with performance-focused materials. Featuring the Red Fern Hoodie and Bark Chocolate Fern Hoodie, this collection reimagines the classic dog hoodie through refined fabrications and thoughtful details. Smooth, sublimated outer faces with a subtle sheen offer a more elevated lookand feel, while soft fleece backing provides warmth without bulk. Fern patternsbring depth and texture, grounding each piece in a calm, natural aesthetic. Finished with functional elements like D-ring leash attachments and durableconstruction, the Fern Hoodie Collection is made for cooler days, lightdrizzle, and moments spent on the move — where style and practicality go hand in hand.",
-            "text_style": "body"
-          }
-        },
-        "buttons_Lr7tnX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_GRcwGp",
-        "text_Kf7yfm",
-        "buttons_Lr7tnX"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/e5375825-0b6b-4386-94cc-00a886824b33_1_b9f1cb90-5147-4d02-b970-d10dcf4d3627.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "image_behavior": "none",
-        "desktop_content_position": "top-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -90,7 +41,6 @@
   },
   "order": [
     "banner",
-    "image_banner_FyJ8Qr",
     "product-grid"
   ]
 }
