@@ -31,7 +31,7 @@
         "text_Kf7yfm": {
           "type": "text",
           "settings": {
-            "text": "<strong>Designedfor movement, comfort, and everyday adventure, the Fern Hoodie Collectionblends plant-inspired design with performance-focused materials.Featuringthe Red Fern Hoodie and Bark Chocolate Fern Hoodie, this collection reimaginesthe classic dog hoodie through refined fabrications and thoughtful details.Smooth, sublimated outer faces with a subtle sheen offer a more elevated lookand feel, while soft fleece backing provides warmth without bulk. Fern patternsbring depth and texture, grounding each piece in a calm, natural aesthetic.Finishedwith functional elements like D-ring leash attachments and durableconstruction, the Fern Hoodie Collection is made for cooler days, lightdrizzle, and moments spent on the move — where style and practicality go hand in hand.</strong>",
+            "text": "Designed for movement, comfort, and everyday adventure, the Fern Hoodie Collection blends plant-inspired design with performance-focused materials. Featuring the Red Fern Hoodie and Bark Chocolate Fern Hoodie, this collection reimagines the classic dog hoodie through refined fabrications and thoughtful details. Smooth, sublimated outer faces with a subtle sheen offer a more elevated lookand feel, while soft fleece backing provides warmth without bulk. Fern patternsbring depth and texture, grounding each piece in a calm, natural aesthetic. Finished with functional elements like D-ring leash attachments and durableconstruction, the Fern Hoodie Collection is made for cooler days, lightdrizzle, and moments spent on the move — where style and practicality go hand in hand.",
             "text_style": "body"
           }
         },
@@ -58,7 +58,7 @@
         "image_overlay_opacity": 0,
         "image_height": "small",
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "desktop_content_alignment": "center",
         "show_text_box": true,
         "color_scheme": "",
