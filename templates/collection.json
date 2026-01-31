@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -53,6 +54,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "image": "shopify://shop_images/e5375825-0b6b-4386-94cc-00a886824b33_1_b9f1cb90-5147-4d02-b970-d10dcf4d3627.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "image_behavior": "none",
