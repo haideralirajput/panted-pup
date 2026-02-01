@@ -129,6 +129,12 @@
             "collection": "the-lena-sweater-collection"
           }
         },
+        "featured_collection_MjAEtf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-planted-tee-collection"
+          }
+        },
         "featured_collection_NHjmJR": {
           "type": "featured_collection",
           "settings": {
@@ -175,6 +181,7 @@
       "block_order": [
         "featured_collection_d3wfNy",
         "featured_collection_ka8ndg",
+        "featured_collection_MjAEtf",
         "featured_collection_NHjmJR",
         "featured_collection_AjxRHr",
         "featured_collection_mVey8Y",
