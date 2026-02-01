@@ -152,6 +152,24 @@
           "settings": {
             "collection": "personalization"
           }
+        },
+        "featured_collection_Wi7B8z": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-cards"
+          }
+        },
+        "featured_collection_9nKe8g": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-planted-harness-collar-leash-collection"
+          }
+        },
+        "featured_collection_b6bkbx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-hoodie-collection"
+          }
         }
       },
       "block_order": [
@@ -160,7 +178,10 @@
         "featured_collection_NHjmJR",
         "featured_collection_AjxRHr",
         "featured_collection_mVey8Y",
-        "featured_collection_HPpfWf"
+        "featured_collection_HPpfWf",
+        "featured_collection_Wi7B8z",
+        "featured_collection_9nKe8g",
+        "featured_collection_b6bkbx"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
