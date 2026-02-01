@@ -387,7 +387,7 @@
       "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "animals-and-pet-supplies-example-products",
+        "collection": "the-planted-accessories",
         "products_to_show": 4,
         "title": "Top Picks",
         "heading_size": "h1",
