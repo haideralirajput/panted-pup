@@ -18,50 +18,6 @@
         "color_scheme": "scheme-1"
       }
     },
-    "rich_text_3ndjYx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_tXibMB": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Planted Accessories Collection",
-            "heading_size": "h1"
-          }
-        },
-        "text_83BJn7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Discover our curated collection of plant-inspired accessories designed to complement your lifestyle with natural style and functionality.</p><p>From sustainable bags to botanical-themed everyday essentials, each piece in The Planted Accessories Collection is thoughtfully crafted to bring a touch of nature's beauty into your daily routine. Made from high-quality, eco-conscious materials, these accessories blend timeless design with practical purpose.</p><p>Thoughtfully made, easy to use, and rooted in simple joy — these are timeless pieces with a gentle sense of calm.</p>"
-          }
-        },
-        "button_b9wCDn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_tXibMB",
-        "text_83BJn7",
-        "button_b9wCDn"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -85,7 +41,6 @@
   },
   "order": [
     "banner",
-    "rich_text_3ndjYx",
     "product-grid"
   ]
 }
