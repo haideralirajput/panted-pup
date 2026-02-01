@@ -119,6 +119,7 @@
       "blocks": {
         "featured_collection_ka8ndg": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "the-lena-sweater-collection"
           }
