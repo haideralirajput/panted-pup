@@ -100,96 +100,6 @@
         "padding_bottom": 52
       }
     },
-    "collection_list_DRzCfx": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_hCqaPL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-lena-sweater-collection"
-          }
-        },
-        "featured_collection_nq6ibb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-hoodie-collection"
-          }
-        },
-        "featured_collection_Afxmxd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-planted-vest-collection"
-          }
-        },
-        "featured_collection_xPrJxe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-planted-tee-collection"
-          }
-        },
-        "featured_collection_qeMWwz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-bandana-collection"
-          }
-        },
-        "featured_collection_y86TMJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-backpack-collection"
-          }
-        },
-        "featured_collection_mYChRQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-planted-accessories"
-          }
-        },
-        "featured_collection_AcGn7R": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-planted-harness-collar-leash-collection"
-          }
-        },
-        "featured_collection_YhYgE6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "personalization"
-          }
-        },
-        "featured_collection_DUmq3X": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gift-cards"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_hCqaPL",
-        "featured_collection_nq6ibb",
-        "featured_collection_Afxmxd",
-        "featured_collection_xPrJxe",
-        "featured_collection_qeMWwz",
-        "featured_collection_y86TMJ",
-        "featured_collection_mYChRQ",
-        "featured_collection_AcGn7R",
-        "featured_collection_YhYgE6",
-        "featured_collection_DUmq3X"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "feature_carousel_collection_QJe48W": {
       "type": "feature-carousel-collection",
       "disabled": true,
@@ -577,7 +487,6 @@
     "1769209579bd88976b",
     "custom_hero_banner_38fcPm",
     "rich_text_FbqLXF",
-    "collection_list_DRzCfx",
     "feature_carousel_collection_QJe48W",
     "collection_list_Cy9MMU",
     "image_with_text_YXtQta",
