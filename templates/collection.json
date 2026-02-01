@@ -11,17 +11,61 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
       }
     },
+    "rich_text_3ndjYx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tXibMB": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Planted Tee Collection",
+            "heading_size": "h1"
+          }
+        },
+        "text_83BJn7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed for comfort, ease, and everyday moments, The Planted Tee Collection blends soft cotton essentials with plant-inspired design.</p><p>Featuring the Bark Brown Monstera T-Shirt and the Cream Dragonfly T-Shirt, this collection draws from the grounding presence of leafy greens and the light, playful movement of dragonflies and their reminder to enjoy the moment. From relaxed mornings at home to warm-weather outings, each tee is crafted from 100% breathable cotton and designed to move with your pup throughout the day.</p><p>Thoughtfully made, easy to wear, and rooted in simple joy — these are everyday staples with a gentle sense of calm.</p>"
+          }
+        },
+        "button_b9wCDn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tXibMB",
+        "text_83BJn7",
+        "button_b9wCDn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
@@ -33,13 +77,14 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "banner",
+    "rich_text_3ndjYx",
     "product-grid"
   ]
 }
