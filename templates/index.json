@@ -117,6 +117,12 @@
     "collection_list_Cy9MMU": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_47FGWQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-hoodie-collection"
+          }
+        },
         "featured_collection_ka8ndg": {
           "type": "featured_collection",
           "disabled": true,
@@ -180,6 +186,7 @@
         }
       },
       "block_order": [
+        "featured_collection_47FGWQ",
         "featured_collection_ka8ndg",
         "featured_collection_b6bkbx",
         "featured_collection_NHjmJR",
