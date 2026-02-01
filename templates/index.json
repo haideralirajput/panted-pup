@@ -117,22 +117,16 @@
     "collection_list_Cy9MMU": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_d3wfNy": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-planted-accessories"
-          }
-        },
         "featured_collection_ka8ndg": {
           "type": "featured_collection",
           "settings": {
             "collection": "the-lena-sweater-collection"
           }
         },
-        "featured_collection_MjAEtf": {
+        "featured_collection_b6bkbx": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-planted-tee-collection"
+            "collection": "the-hoodie-collection"
           }
         },
         "featured_collection_NHjmJR": {
@@ -147,6 +141,12 @@
             "collection": "the-bandana-collection"
           }
         },
+        "featured_collection_MjAEtf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-planted-tee-collection"
+          }
+        },
         "featured_collection_mVey8Y": {
           "type": "featured_collection",
           "settings": {
@@ -159,10 +159,10 @@
             "collection": "personalization"
           }
         },
-        "featured_collection_Wi7B8z": {
+        "featured_collection_d3wfNy": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gift-cards"
+            "collection": "the-planted-accessories"
           }
         },
         "featured_collection_9nKe8g": {
@@ -171,24 +171,24 @@
             "collection": "the-planted-harness-collar-leash-collection"
           }
         },
-        "featured_collection_b6bkbx": {
+        "featured_collection_Wi7B8z": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-hoodie-collection"
+            "collection": "gift-cards"
           }
         }
       },
       "block_order": [
-        "featured_collection_d3wfNy",
         "featured_collection_ka8ndg",
-        "featured_collection_MjAEtf",
+        "featured_collection_b6bkbx",
         "featured_collection_NHjmJR",
         "featured_collection_AjxRHr",
+        "featured_collection_MjAEtf",
         "featured_collection_mVey8Y",
         "featured_collection_HPpfWf",
-        "featured_collection_Wi7B8z",
+        "featured_collection_d3wfNy",
         "featured_collection_9nKe8g",
-        "featured_collection_b6bkbx"
+        "featured_collection_Wi7B8z"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
