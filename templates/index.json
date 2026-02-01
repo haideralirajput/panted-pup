@@ -116,9 +116,55 @@
     },
     "collection_list_Cy9MMU": {
       "type": "collection-list",
+      "blocks": {
+        "featured_collection_d3wfNy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animals-and-pet-supplies-example-products"
+          }
+        },
+        "featured_collection_ka8ndg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-lena-sweater-collection"
+          }
+        },
+        "featured_collection_NHjmJR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-planted-vest-collection"
+          }
+        },
+        "featured_collection_AjxRHr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-bandana-collection"
+          }
+        },
+        "featured_collection_mVey8Y": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-backpack-collection"
+          }
+        },
+        "featured_collection_HPpfWf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "personalization"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_d3wfNy",
+        "featured_collection_ka8ndg",
+        "featured_collection_NHjmJR",
+        "featured_collection_AjxRHr",
+        "featured_collection_mVey8Y",
+        "featured_collection_HPpfWf"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Pups in Full Bloom!",
+        "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
